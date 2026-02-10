@@ -16,3 +16,9 @@
 - `rsync` is powerful for backups
 - Practicing Bash scripting builds confidence for DevOps tasks
 - Cleaning up temporary files is essential for system performance
+
+## system_health.sh
+- Performs a basic system health check
+- Logs disk, memory, and CPU usage
+- Outputs results to `system_health.log`
+- Demonstrates monitoring and logging skills
