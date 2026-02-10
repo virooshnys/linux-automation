@@ -6,22 +6,13 @@
 - Uses `rsync` for incremental, efficient copying
 - Run with: `./backup_home.sh`
 
+## cleanup_tmp.sh
+- Cleans up temporary files from the system’s `/tmp` directory
+- Excludes important system files and directories
+- Uses `find` to locate and delete files older than a certain age
+
 ## Key Takeaways
 - Automation scripts save time and reduce human error
 - `rsync` is powerful for backups
 - Practicing Bash scripting builds confidence for DevOps tasks
-
-## cleanup_tmp.sh
-- Automates cleaning of /tmp folder
-- Deletes files older than 7 days
-- Uses `find` to locate old files and `rm` to remove them
-- Run with: 
-```bash
-chmod +x cleanup_tmp.sh
-./cleanup_tmp.sh
-```
-
-## Key Takeaways 
-- Automation scripts save time and reduce human error 
-- `find` is powerful for locating files based on criteria 
-- Combining commands in scripts makes system maitainence easy
+- Cleaning up temporary files is essential for system performance

@@ -9,3 +9,4 @@ This repository contains automation scripts and practices using Linux tools.
 ## Key Takeaways:
 - Automation scripts reduce human error and improve efficiency.
 - Bash scripting is a valuable skill for DevOps tasks.
+
