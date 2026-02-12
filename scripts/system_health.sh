@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e 
+
 LOG_FILE="$HOME/system_health.log"
 
 echo "==============================" >> "$LOG_FILE"
