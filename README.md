@@ -1,4 +1,4 @@
-# Linux Automation
+# Linux Automation Project Scripts
 
 This repository contains automation scripts and practices using Linux tools.
 
